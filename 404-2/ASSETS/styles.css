@@ -1,0 +1,53 @@
+.header{
+    width: 100%;
+    height: 150px;
+}
+img{
+    margin: 0;
+    padding-top: 50px;
+    float: left;
+
+    width: 2rem;
+    height: 2rem;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 8px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.search-icon{
+    float: right;
+    margin-top: 55px;
+    margin-left: 50px;
+}
+.search-box{
+    /*border: 2px solid black;
+    padding: 10px;
+    width: 200px;*/
+    filter: brightness(0%);
+    color: #000;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(https://uploads-ssl.webflow.com/63415dc…/63415dc…_icon-search-white.svg);
+    background-position: 8px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    border: 1px solid #000;
+    border-radius: 100vw;
+    margin-bottom: 0;
+    margin-right: 0.5rem;
+    padding: 0.25rem 0 0.25rem 2rem;
+    font-size: .875rem;
+}
+
+.search-button{
+    color: #fff;
+    letter-spacing: -.02rem;
+    background-color: #000;
+    border-radius: 100vw;
+    padding: 0.625rem 1.25rem;
+    font-size: .875rem;
+    font-weight: 300;
+    transition: background-color .3s;
+}
